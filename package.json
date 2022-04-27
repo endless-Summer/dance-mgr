@@ -1,0 +1,23 @@
+{
+  "name": "dance-mgr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd ./dance-mgr-fe && npm run build && cd ../dance-mgr-be && npm start",
+    "stop": "cd dance-mgr-be && npm run stop",
+    "service": "cd dance-mgr-be && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endless-Summer/dance-mgr.git"
+  },
+  "keywords": [],
+  "teacher": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/endless-Summer/dance-mgr/issues"
+  },
+  "homepage": "https://github.com/endless-Summer/dance-mgr#readme"
+}
